@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Star Wars Memes"
+        android:id="@+id/starwars"
+        android:textSize="30dp"
+        android:onClick="openStarWars"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dead Memes"
+        android:id="@+id/dead"
+        android:textSize="30dp"
+        android:onClick="openDead"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dank Memes"
+        android:id="@+id/dank"
+        android:textSize="30dp"
+        android:onClick="openDank"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marvel Memes"
+        android:id="@+id/marvel_thanos"
+        android:textSize="30dp"
+        android:onClick="openMarvel_Thanos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spooky Memes"
+        android:id="@+id/spooky"
+        android:textSize="30dp"
+        android:onClick="openSpooky"/>
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/upload_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Meme"
+        android:onClick="uploadMeme" />
+
+
+
+</LinearLayout>
